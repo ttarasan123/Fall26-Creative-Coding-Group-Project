@@ -68,7 +68,9 @@ def Create_Poster():
   t.penup()
 
 
-  size = 50
+  grid_width = 450
+  grid_height = 450
+  size = min(grid_width / ncols, grid_height / nrows)
   y_offset = (nrows - 1) * size / 2
   x_offset = -(ncols - 1) * size / 2
 
@@ -107,7 +109,7 @@ def Create_Poster():
     #Center tiles
       else:
         tile_type = 'center'
-        random_number = np.random.randint(1, 4)
+        np.random_number = random.randint(1, 4)
         if random_number == 1:
           rotation = 0
         elif random_number == 2:
