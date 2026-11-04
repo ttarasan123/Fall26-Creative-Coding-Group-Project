@@ -68,7 +68,9 @@ def Create_Poster():
   t.penup()
 
 
-  size = 50
+  grid_width = 450
+  grid_height = 450
+  size = min(grid_width / ncols, grid_height / nrows)
   y_offset = (nrows - 1) * size / 2
   x_offset = -(ncols - 1) * size / 2
 
