@@ -20,7 +20,7 @@ To generate the poster it runs through a loop that places the tiles next to each
 
 ## Meet the Designers
 
-- **Cream:** [Brief description of their tile designs or contribution.]
+- **Cream:** Worked on the canvas configuration and the conditional logic that differentiates corners, borders, and internal cells.
 - **Emily:** Worked on organizing the project into Github as separate modules, tiles rotation, and tiles sizing.
 - **Adamya:** [Brief description of their tile designs or contribution.]
 - **Dafu:** [Brief description of their tile designs or contribution.]
